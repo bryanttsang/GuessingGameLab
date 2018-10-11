@@ -126,7 +126,7 @@ public class BTsangLib
         }
         else
         {
-            System.out.print("Keep a number from 1-100 in mind. Type higher/lower if your number is higher/lower than the guessed number. Type correct if it is correct.");
+            System.out.print("Keep a number from 1-100 in mind. Type higher/lower if your number is higher/lower than the guessed number. Type correct if it is correct. ");
             int guess = (int) (Math.random() * 101 + 1);
             System.out.print(" My first guess is " + Integer.toString(guess) + ". ");
             Scanner clu = new Scanner(System.in);
